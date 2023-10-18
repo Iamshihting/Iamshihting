@@ -1,0 +1,194 @@
+:root {
+    --background: #EDF2C5;
+    --Primary: #778A50;
+    --content_text: #7D7D7D;
+    --content_bg: #F7FBDA;
+}
+
+html, body {
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    max-height: 1024px;
+}
+
+header {
+    width: 1122px;
+    height: 62px;
+    margin: 16px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: var(--Primary);
+    font-family: Noto Sans;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.btngroup {
+    width: 208px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnfacebook, .btninstagram {
+    width: 24px;
+    height: 24px;
+}
+
+.btnfacebook {
+    background-image: url(img/btn_facebook.png);
+}
+
+.btninstagram {
+    background-image: url(img/btn_instagram.png);
+}
+
+.v-bar {
+    width: 0px;
+    border: 1px solid var(--Primary);
+    height: 24px;
+}
+
+.btngroup a {
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid var(--Primary);
+}
+
+.btngroup a p {
+    color: var(--Primary);
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 0;
+    padding: 2px 4px;
+}
+
+nav {
+    width: 1120px;
+    height: 44px;
+    border-radius: 3px;
+    background: var(--Primary);
+    margin: 8px auto;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: auto 30px;
+}
+
+nav li a {
+    color: var(--background);
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    text-decoration: none;
+}
+
+.main {
+    margin: 8px auto;
+    width: 1120px;
+}
+
+.articles {
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+.box {
+    width: 528px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btitle {
+    width: 528px;
+    height: 45px;
+    color: var(--background);
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+    background: var(--Primary);
+    border-radius: 3px;
+    padding-left: 30px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.bimg {
+    width: 165px;
+    height: 140px;
+}
+
+.barticle {
+    width: 528px;
+    height: 140px;
+    padding: 16px;
+    background: var(--content_bg);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.barticle hr {
+    width: 496px;
+    height: 1px;
+    margin: 0;
+}
+
+.barticle p {
+    width: 496px;
+    color: var(--content_text);
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    width: 1440px;
+    height: 60px;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background: var(--Primary);
+}
+
+footer p {
+    color: var(--background);
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
